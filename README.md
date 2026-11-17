@@ -28,3 +28,21 @@ The public download is named DonkeySHAT-v0.2.3-win-x64.zip. This documentation-o
 Tasks can change files with your user permissions. Use backups and review results.
 Never post credentials, browser profiles, private task history or proprietary files
 in public issues. Sanitize any diagnostic excerpt before sharing it.
+
+## How DonkeySHAT Works
+
+### 1. Choose a Folder
+![Choose a Folder](images/Choose%20a%20Folder.jpg)
+
+### 2. Give SHAT an Idea
+Tell it to give you a prompt to do what you want to do (i.e. Make the game Tetris in a stand alone, offline web page)
+![Give SHAT an Idea](images/Give%20SHAT%20an%20idea.jpg)
+
+### 3. Give the Prompt to Donkey
+Copy the prompt from SHAT and paste it into Donkey.
+![Give Prompt to Donkey](images/Give%20promtp%20to%20Donkey.jpg)
+
+When Donkey finishes, you can review the output, copy the run to your clipboard then paste it back into SHAT 
+for more work, then paste that prompt back to Donkey, and so on. 
+
+There's a LOT more planned for DonkeySHAT
