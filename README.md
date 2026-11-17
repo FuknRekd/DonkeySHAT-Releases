@@ -5,11 +5,6 @@ and Codex execution. This first public release supports **Manual Mode only**. Yo
 transfer a bounded task to Donkey, monitor execution and review the result yourself.
 Full automation is disabled.
 
-Copyright © 2026 Matt Finley. All rights reserved.
-**Proprietary freeware:** free to download and use. Application source remains private.
-This repository contains distribution materials only, with no development history.
-Third-party components retain their independent license rights.
-
 ## Download and install
 
 Open this repository's **Releases** page and select **DonkeySHAT v0.2.3**.
@@ -43,6 +38,12 @@ Copy the prompt from SHAT and paste it into Donkey.
 ![Give Prompt to Donkey](images/Give%20promtp%20to%20Donkey.jpg)
 
 When Donkey finishes, you can review the output, copy the run to your clipboard then paste it back into SHAT 
+
+
+Copyright © 2026 Matt Finley. All rights reserved.
+**Proprietary freeware:** free to download and use. Application source remains private.
+This repository contains distribution materials only, with no development history.
+Third-party components retain their independent license rights.
 for more work, then paste that prompt back to Donkey, and so on. 
 
 There's a LOT more planned for DonkeySHAT
