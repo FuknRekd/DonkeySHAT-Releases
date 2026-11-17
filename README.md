@@ -1,7 +1,7 @@
 # DonkeySHAT v0.2.3
 
 DonkeySHAT is a Windows desktop workspace for manually coordinating AI planning
-and Codex execution. This release supports **Manual Mode only**. You plan in SHAT,
+and Codex execution. This first public release supports **Manual Mode only**. You plan in SHAT,
 transfer a bounded task to Donkey, monitor execution and review the result yourself.
 Full automation is disabled.
 
