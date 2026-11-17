@@ -39,11 +39,10 @@ Copy the prompt from SHAT and paste it into Donkey.
 
 When Donkey finishes, you can review the output, copy the run to your clipboard then paste it back into SHAT 
 
+There's a LOT more planned for DonkeySHAT, please Star and Watch.
 
 Copyright © 2026 Matt Finley. All rights reserved.
 **Proprietary freeware:** free to download and use. Application source remains private.
 This repository contains distribution materials only, with no development history.
 Third-party components retain their independent license rights.
 for more work, then paste that prompt back to Donkey, and so on. 
-
-There's a LOT more planned for DonkeySHAT
