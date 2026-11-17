@@ -1,0 +1,12 @@
+DonkeySHAT v0.2.3
+Copyright © 2026 Matt Finley
+All rights reserved.
+
+Proprietary freeware. Free to download and use.
+Source code remains private.
+
+Bundled third-party components retain their independent licenses and notices.
+This notice does not replace or restrict rights granted by those licenses.
+All seven application artwork assets are approved for distribution with DonkeySHAT.
+
+The previous detailed EULA draft is not part of these approved terms.
