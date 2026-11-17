@@ -1,48 +1,93 @@
 # DonkeySHAT v0.2.3
 
-DonkeySHAT is a Windows desktop workspace for manually coordinating AI planning
-and Codex execution. This first public release supports **Manual Mode only**. You plan in SHAT,
-transfer a bounded task to Donkey, monitor execution and review the result yourself.
-Full automation is disabled.
+**Two AIs. One window. Zero tolerance for bullshit.**
 
-## Download and install
+DonkeySHAT brings ChatGPT and Codex CLI together in one Windows desktop application.
 
-Open this repository's **Releases** page and select **DonkeySHAT v0.2.3**.
-Download DonkeySHAT-v0.2.3-win-x64.zip, SHA256SUMS.txt and THIRD-PARTY-NOTICES-v0.2.3.txt.
-GitHub's automatically generated source archives contain distribution documents,
-not the application or its source code.
+**SHAT** (Strategic Human-AI Taskmaster) handles planning, strategy, and reviewing results using regular ChatGPT Chat Mode.
 
-Requires Windows x64, **.NET 10 Windows Desktop Runtime x64**, Microsoft WebView2
-Runtime, configured Codex CLI and your own authentication. No credentials,
-provider subscription or runtime installation is supplied.
-See [installation](docs/INSTALLATION.md), [release notes](docs/RELEASE-NOTES-v0.2.3.md),
-[limitations](docs/KNOWN-LIMITATIONS.md) and [third-party notices](docs/THIRD-PARTY.md).
+**Donkey** handles the dirty work. It executes tasks through Codex CLI, works with files, runs commands, and reports what happened.
 
-The public download is named DonkeySHAT-v0.2.3-win-x64.zip. This documentation-only repack removes obsolete private-review holds while preserving application binaries, artwork and required third-party notices. No additional functional test pass is claimed.
+You keep both jackasses honest.
 
-Tasks can change files with your user permissions. Use backups and review results.
-Never post credentials, browser profiles, private task history or proprietary files
-in public issues. Sanitize any diagnostic excerpt before sharing it.
+**Plan it. Run it. Verify it.**
+
+## Download and Install
+
+Download the latest version from the [DonkeySHAT Releases page](https://github.com/FuknRekd/DonkeySHAT-Releases/releases).
+
+**Requirements:**
+
+- Windows 64-bit
+- [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+- [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
+- [OpenAI Codex CLI](https://github.com/openai/codex)
+- Your own ChatGPT and Codex authentication
+
+Download `DonkeySHAT-v0.2.3-win-x64.zip`, extract it into a folder, and run `App/Launch-Manual.cmd`.
+
+See the [detailed installation guide](docs/INSTALLATION.md) if you need help configuring the prerequisites.
 
 ## How DonkeySHAT Works
 
 ### 1. Choose a Folder
+
+Select the folder where Donkey will work. This can be an existing project or a new project you're starting from scratch.
+
 ![Choose a Folder](images/Choose%20a%20Folder.jpg)
 
 ### 2. Give SHAT an Idea
-Tell it to give you a prompt to do what you want to do (i.e. Make the game Tetris in a stand alone, offline web page)
+
+Tell SHAT what you want to accomplish.
+
+For example:
+
+*"Give me a Donkey prompt to create a standalone, offline web-based Tetris game."*
+
+SHAT develops the instructions for Donkey. You can discuss the approach, refine requirements, and decide what Donkey should do.
+
 ![Give SHAT an Idea](images/Give%20SHAT%20an%20idea.jpg)
 
 ### 3. Give the Prompt to Donkey
-Copy the prompt from SHAT and paste it into Donkey.
+
+Copy SHAT's instructions into Donkey and submit the task.
+
+Donkey executes the work while DonkeySHAT displays its activity, progress, and results.
+
 ![Give Prompt to Donkey](images/Give%20promtp%20to%20Donkey.jpg)
 
-When Donkey finishes, you can review the output, copy the run to your clipboard then paste it back into SHAT 
+### 4. Review and Repeat
 
-There's a LOT more planned for DonkeySHAT, please Star and Watch.
+When Donkey finishes, review its results.
+
+Use **Copy This Run** to copy the execution report and paste it into SHAT.
+
+SHAT reviews what actually happened, identifies problems, and prepares the next task if needed.
+
+Repeat until the job is finished and verified.
+
+That's the idea: **SHAT is strategic. Donkey is tactical. You're in charge.**
+
+## Current Version: v0.2.3
+
+This release supports **Manual Mode**, where you transfer instructions and results between SHAT and Donkey.
+
+Full automation is still under development.
+
+Known limitations include some reporting display issues, limited text selection in completion notifications, and no embedded interactive CLI terminal yet.
+
+See the [known limitations](docs/KNOWN-LIMITATIONS.md) and [release notes](docs/RELEASE-NOTES-v0.2.3.md).
+
+## What's Next?
+
+There's a LOT more planned for DonkeySHAT, including interactive terminals, improved reporting, and automated SHAT/Donkey collaboration.
+
+**Star this repository** if you like the project. **Watch** it for future releases.
+
+## License
 
 Copyright © 2026 Matt Finley. All rights reserved.
-**Proprietary freeware:** free to download and use. Application source remains private.
-This repository contains distribution materials only, with no development history.
-Third-party components retain their independent license rights.
-for more work, then paste that prompt back to Donkey, and so on. 
+
+DonkeySHAT is **proprietary freeware**, free to download and use. Its application source code remains private.
+
+Third-party software retains its independent license rights. See the [third-party notices](docs/THIRD-PARTY.md).
